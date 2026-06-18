@@ -1,0 +1,11 @@
+name: Broken Workflow (For Demo)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  broken-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: This will fail intentionally
+        run: exit 1
