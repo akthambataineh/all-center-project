@@ -20,6 +20,6 @@ jobs:
       - name: Build and Push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: "./BACKEND AI CALLING"
+          context: "./backend"
           push: true
           tags: akthambataineh/call-center-app:latest
